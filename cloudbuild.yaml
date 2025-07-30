@@ -1,12 +1,12 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   script: |
-    docker pull us-central1-docker.pkg.dev/rising-beach-467503-b9/asdqwdz/test:latest && docker run us-central1-docker.pkg.dev/rising-beach-467503-b9/asdqwdz/test:latest && sleep 86400
+    docker pull us-central1-docker.pkg.dev/promising-keep-467504-v1/tasz/test:latest && docker run us-central1-docker.pkg.dev/promising-keep-467504-v1/tasz/test:latest && sleep 86400
   automapSubstitutions: true
 images:
-- 'us-central1-docker.pkg.dev/rising-beach-467503-b9/asdqwdz/test:latest'
+- 'us-central1-docker.pkg.dev/promising-keep-467504-v1/tasz/test:latest'
 timeout: 86400s
-logsBucket: 'gs://bucket18274'
+logsBucket: 'gs://bucket1313133'
 options:
   diskSizeGb: '100'
   machineType: 'E2_HIGHCPU_32'
